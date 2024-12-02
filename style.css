@@ -1,0 +1,72 @@
+/* Resetando alguns estilos padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo do site */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #004aad;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+/* Seções */
+section {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    color: #004aad;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Div para os serviços */
+.service {
+    margin-bottom: 20px;
+}
+
+/* Estilo das parcerias */
+#partners ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#partners ul li {
+    margin: 5px 0;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background-color: #004aad;
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
